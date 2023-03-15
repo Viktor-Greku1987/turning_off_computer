@@ -104,9 +104,6 @@ def text2int_clock(textnum = str, numwords={}):
             numwords[word] = (1, idx*0.5)
         for idx, word in enumerate(hour_1_5):
             numwords[word] = (1, idx*1.5)
-
-
-
         for idx, word in enumerate(tens):
             numwords[word] = (1, idx * 10)
 
